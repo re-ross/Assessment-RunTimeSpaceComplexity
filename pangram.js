@@ -15,4 +15,5 @@ function isPangram(s) {
  console.log(isPangram("The quick brown fox jumps over the lazy dog!"));
  console.log(isPangram("I like cats, but not mice"));
 
+ //runtime: O(n)
  //space complexity: O(n)

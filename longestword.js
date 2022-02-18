@@ -8,4 +8,5 @@ function longestWord(longest_word)
 }
 console.log(longestWord(["hi", "hello"]));
 
+// runtime: O(n)
 // space complexity: O(n)

@@ -12,4 +12,5 @@ function hasUniqueChars(str){
 console.log(hasUniqueChars("Monday"))
 console.log(hasUniqueChars("Moonday"));
 
+// runtime: O(n2)
 // space complexity: O(n)

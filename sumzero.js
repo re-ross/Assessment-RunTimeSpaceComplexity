@@ -19,4 +19,5 @@ console.log(addToZero([1]));
 console.log(addToZero([1, 2, 3]));
 console.log(addToZero([1, 2, 3, -2]))
 
+// runtime: 0(n)
 // space complexity: 0(n2)
