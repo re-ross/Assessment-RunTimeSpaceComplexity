@@ -1,0 +1,20 @@
+﻿1: insert 1.042442102 s, append 5.499927 ms extraLargeArray
+
+
+2: insert 87.993 μs append 97.226 μs tinyArray
+
+
+3: insert 85.347 μs append 108.929 μs smallArray
+
+
+4: ​​insert 305.107 μs append 198.186 μs mediumArray
+
+
+
+
+5: insert 7.809758 ms append 699.755 μs largeArray
+
+
+
+
+6: the time scale of increasing array size is proportionate, the larger the array the longer it takes to run the functions. Appending scales is better scaling than inserting, since you’re only affecting one element versus shifting all the elements.
